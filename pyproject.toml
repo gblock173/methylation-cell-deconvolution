@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "methylation-cell-deconvolution"
+version = "0.1.0"
+description = "Coverage-weighted methylation cell-type deconvolution and fragmentomics utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [{name = "Yujin Jeon"}]
+dependencies = ["numpy>=1.20", "pandas>=1.4", "scipy>=1.8"]
+
+[project.optional-dependencies]
+fragmentomics = ["pysam>=0.16"]
+
+[project.scripts]
+methylation-deconvolve = "cell_deconvolution.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
