@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Methylation Cell Deconvolution"
+version: 1.0.0
+date-released: 2026-10-16
+abstract: "Coverage-weighted non-negative least squares methods for methylation cell-type deconvolution and reference-atlas construction."
+license: MIT
+authors:
+  - family-names: Jeon
+    given-names: Yujin

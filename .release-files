@@ -4,6 +4,7 @@
 .github/workflows/checks.yml
 .gitignore
 .release-files
+CITATION.cff
 LICENSE
 README.md
 RELEASE_AUDIT.md
